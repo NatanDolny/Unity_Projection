@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.77908707, g: 0.7664156, b: 0.9231491, a: 1}
+  m_IndirectSpecularColor: {r: 0.83067036, g: 0.8709488, b: 1.2645664, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2439,8 +2439,12 @@ PrefabInstance:
       value: 58.40022
       objectReference: {fileID: 0}
     - target: {fileID: 738646681595172700, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.432
+      objectReference: {fileID: 0}
+    - target: {fileID: 738646681595172700, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.445
+      value: 1.552
       objectReference: {fileID: 0}
     - target: {fileID: 738646681595172700, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5522,7 +5526,7 @@ MonoBehaviour:
   renderTexture: {fileID: 8400000, guid: 55af92c2dcc20ec49a8a8ffb30c162ef, type: 2}
   lightTexture: {fileID: 0}
   videoClip: {fileID: 32900000, guid: a24442d08bcc99241adbd47bced00d4c, type: 3}
-  volume: 0.1
+  volume: 0.296
   looping: 1
   aspectRatioFloat: 1.78
   range: 20
@@ -5576,6 +5580,7 @@ MonoBehaviour:
   taaMotionVectorRejection: 0
   taaAntiHistoryRinging: 0
   taaBaseBlendFactor: 0.875
+  taaJitterScale: 1
   physicalParameters:
     m_Iso: 200
     m_ShutterSpeed: 0.005
